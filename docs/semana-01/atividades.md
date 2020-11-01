@@ -18,10 +18,19 @@ A seguir você verá todas as aulas da semana 01.
 ## Atividade 01
 {: .text-red-200 }
 
-Prazo para entrega: {{ "Novembro 1, 2020" | date: "%d/%m/%Y" }}
+{% assign prazo = "Novembro 1, 2020" | date: "%d/%m/%Y"  %}
+{% assign hoje = "now" | date: "%d/%m/%Y"  %}
 
-Prazo encerrado
-{: .label .label-red }
+{% if prazo > hoje %}
+  Prazo encerrado
+  {: .label .label-red }
+{% elsif prazo < hoje %}
+  Entrega para {{prazo}}
+  {: .label .label-green }
+{% else %}
+   Entrega para
+  {: .label .label-yellow }
+{% endif %}
 
 
 <div class="iframe-container" style="max-width: 680px; height: 680px;">
