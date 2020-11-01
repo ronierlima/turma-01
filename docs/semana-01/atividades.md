@@ -28,7 +28,7 @@ A seguir você verá todas as aulas da semana 01.
   Entrega para {{prazo}}
   {: .label .label-green }
 {% else %}
-   Entrega para
+   Entrega para Hoje
   {: .label .label-yellow }
 {% endif %}
 
