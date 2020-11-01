@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Atividades
-parent: Semana 02
+parent: 🗹 Semana 02
 nav_order: 2
 permalink: /semana/02/atividades
 ---
@@ -14,7 +14,27 @@ A seguir você verá todas as aulas da semana 02.
 ---
 
 
-## Atividade 1
+
+
+{% assign prazo = "Novembro 2, 2020" | date: "%d/%m/%Y"  %}
+{% assign hoje = "now" | date: "%d/%m/%Y"  %}
+
+{% if hoje > prazo %}
+## Atividade 01
+{: .text-red-200 }
+  Prazo encerrado
+  {: .label .label-red }
+{% elsif hoje < prazo %}
+## Atividade 01
+{: .text-green-200 }
+  Entrega para {{prazo}}
+  {: .label .label-green }
+{% else %}
+## Atividade 01
+{: .text-yellow-200 }
+   Entrega para Hoje
+  {: .label .label-yellow }
+{% endif %}
 
 Nesta primeira atividade você vai colocar em prática algumas das tarefas básicas do Classroom. 
 Para concluir essa atividade você deve :
@@ -43,7 +63,27 @@ Como adicionar comunicado para a turma:
 [https://www.youtube.com/watch?v=3XK0evDZ7vo&list=PLne7FhyNmvs70Ujv2EIoEYW-6_OFlMWNw&index=6&t=0s](https://www.youtube.com/watch?v=3XK0evDZ7vo&list=PLne7FhyNmvs70Ujv2EIoEYW-6_OFlMWNw&index=6&t=0s)
 
 
-## Atividade 2
+
+
+{% assign prazo = "Novembro 2, 2020" | date: "%d/%m/%Y"  %}
+{% assign hoje = "now" | date: "%d/%m/%Y"  %}
+
+{% if hoje > prazo %}
+## Atividade 02
+{: .text-red-200 }
+  Prazo encerrado
+  {: .label .label-red }
+{% elsif hoje < prazo %}
+## Atividade 02
+{: .text-green-200 }
+  Entrega para {{prazo}}
+  {: .label .label-green }
+{% else %}
+## Atividade 02
+{: .text-yellow-200 }
+   Entrega para Hoje
+  {: .label .label-yellow }
+{% endif %}
 
 Para concluir essa atividade você deve:
 Criar um tópico chamado Materiais de Estudo.

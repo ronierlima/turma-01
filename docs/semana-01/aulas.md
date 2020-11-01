@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Aulas
-parent: Semana 01
+parent: 🗹 Semana 01
 nav_order: 1
 permalink: semana/01/aulas
 ---

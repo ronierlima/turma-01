@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Semana 02
+title: 🗹 Semana 02
 nav_order: 2
 has_children: true
 permalink: /semana/02

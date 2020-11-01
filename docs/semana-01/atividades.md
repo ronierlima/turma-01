@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Atividades
-parent: Semana 01
+parent: 🗹 Semana 01
 permalink: semana/01/atividades
 nav_order: 2
 ---
