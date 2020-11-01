@@ -13,14 +13,14 @@ A seguir você verá todas as aulas da semana 02.
 
 ---
 
-## Aula 01 - (26/10)
+## Aula 01 - (02/11)
 {: .text-yellow-200 }
 
-<iframe src="https://drive.google.com/file/d/1g6QepX8cyaQS7dfy06I8xH_6Pb61gdH8/preview" ></iframe>
+<iframe src="" ></iframe>
 
 ---
 
-## Aula 02 - (28/10)
+## Aula 02 - (04/10)
 {: .text-green-200 }
 
 <iframe src="https://drive.google.com/file/d/1MKlXau-GMhIpAy8Plv-UlD0gIjS9CH4t/preview" ></iframe>

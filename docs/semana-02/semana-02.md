@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Semana 02
-nav_order: 1
+nav_order: 2
 has_children: true
 permalink: /semana/02
 has_toc: false
