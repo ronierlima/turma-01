@@ -3,7 +3,7 @@ layout: default
 title: Semana 01
 nav_order: 1
 has_children: true
-permalink: /semana/01
+permalink: /semana/01/
 has_toc: false
 ---
 
